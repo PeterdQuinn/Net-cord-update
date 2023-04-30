@@ -1,0 +1,262 @@
+<!-- Login Page -->
+/* Add your custom CSS styles here */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-container h1 {
+  font-size: 24px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.welcome-container {
+  text-align: right;
+}
+
+.welcome-container h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.username {
+  font-size: 14px;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #1e6aac;
+}
+
+.chat-main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.chat-sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.chat-sidebar h3 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.chat-messages {
+  flex: 3;
+  padding: 20px;
+}
+
+.chat-form-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#chat-form {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+#msg {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.chat-message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chat-message img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-message p {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+@keyframes messageAdded {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.message-added {
+  animation: messageAdded 0.3s ease-in-out;
+}
+
+------------------
+```
+```/* Add your custom CSS styles here */
+
+/* General styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Chat container styles */
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container h1 {
+  font-size: 24px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+/* Join container styles */
+
+.join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.join-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #1e6aac;
+}
