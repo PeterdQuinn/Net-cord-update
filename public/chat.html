@@ -15,7 +15,7 @@
 <body>
   <header class="chat-header">
     <div class="header-container">
-      <h1><i class="fas fa-atlas"></i> Net-Cord</h1>
+      <h1><i class="fas fa-atlas fa-3x"></i> Net-Cord</h1>
       <img src="https://as2.ftcdn.net/v2/jpg/03/55/21/17/1000_F_355211758_uQO2TEFDF5ubPTE22RR9Zp3ixIlejw9T.jpg" alt="logo" class="logo" />
     </div>
     <div class="welcome-container">
@@ -23,6 +23,15 @@
       <p class="username">Username</p>
       <a id="leave-btn" class="btn">Leave Net-Cord</a>
     </div>
+    
+    <style>
+      .logo {
+        max-width: 300px; /* adjust this value to change the maximum width of the image */
+        height: auto; /* maintain aspect ratio */
+      }
+    </style>
+    
+    
   </header>
   <div class="chat-container">
     <main class="chat-main">
@@ -43,7 +52,7 @@
           required
           autocomplete="off"
         />
-        <button class="btn"><i class="fas fa-microphone-alt"></i> Speak-to-the-room</button>
+        <button class="btn"><i class="fas fa-microphone-alt"></i> Get connected</button>
       </form>
     </div>
   </div>
